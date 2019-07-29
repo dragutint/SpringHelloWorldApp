@@ -17,8 +17,12 @@
 		<label>Last name:</label>			
 		<form:input path="lastName"/>
 		<br>
+		<label>Contry:</label>
+		<form:select path="country">
+			<form:options items="${student.countryOptions}"/>
+		</form:select>
+		<br>
 		<input type="submit" value="Submit">
-		
 	</form:form>
 </body>
 </html>

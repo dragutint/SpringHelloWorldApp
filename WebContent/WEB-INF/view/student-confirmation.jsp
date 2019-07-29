@@ -12,6 +12,8 @@
 
 	<p>
 	Hello man! You are: ${student.firstName} ${student.lastName}
+	<br>
+	You are from ${student.country}
 	</p>
 	
 </body>
