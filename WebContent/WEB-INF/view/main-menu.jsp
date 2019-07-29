@@ -9,6 +9,10 @@
 
 <body>
 	<h2>Hello, go to form. <a href="hello/showForm">Click</a></h2>
+	<br>
+	<br>
+	<h2>Hello, go to registration form student. <a href="student/showForm">Click</a></h2>
+	
 </body>
 
 </html>
