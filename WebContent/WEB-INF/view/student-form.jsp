@@ -13,14 +13,40 @@
 	<form:form action="processForm" modelAttribute="student">
 		<label>First name:</label>
 		<form:input path="firstName"/>
+		
 		<br>
+		
 		<label>Last name:</label>			
 		<form:input path="lastName"/>
+		
 		<br>
+		
 		<label>Contry:</label>
 		<form:select path="country">
 			<form:options items="${student.countryOptions}"/>
 		</form:select>
+		
+		<br>
+		<label>Favourite programming language:</label>
+		<br>
+		<label>1. C#</label>
+		<form:radiobutton path="favouriteLanguage" value="C#"/>
+		<label>2. Java</label>
+		<form:radiobutton path="favouriteLanguage" value="Java"/>
+		<label>3. Python</label>
+		<form:radiobutton path="favouriteLanguage" value="Python"/>
+		
+		<br>
+		
+		<label>Favourite operating system:</label>
+		<br>
+		<label>Linux</label>
+		<form:checkbox path="operatingSystems" value="Linux"/>
+		<label>MacOS</label>
+		<form:checkbox path="operatingSystems" value="MacOS"/>
+		<label>MS Windows</label>
+		<form:checkbox path="operatingSystems" value="Windows"/>
+				
 		<br>
 		<input type="submit" value="Submit">
 	</form:form>
