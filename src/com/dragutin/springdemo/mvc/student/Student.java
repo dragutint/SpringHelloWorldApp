@@ -1,6 +1,11 @@
-package com.dragutin.springdemo.mvc;
+package com.dragutin.springdemo.mvc.student;
 
 import java.util.LinkedHashMap;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+
 
 public class Student {
 	private String firstName;

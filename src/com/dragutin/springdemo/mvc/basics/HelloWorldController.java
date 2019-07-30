@@ -1,4 +1,4 @@
-package com.dragutin.springdemo.mvc;
+package com.dragutin.springdemo.mvc.basics;
 
 import javax.servlet.http.HttpServletRequest;
 

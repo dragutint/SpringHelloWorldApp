@@ -1,7 +1,10 @@
-package com.dragutin.springdemo.mvc;
+package com.dragutin.springdemo.mvc.student;
+
+import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -26,7 +29,6 @@ public class StudentController {
 		
 		System.out.println("theStudent: " + theStudent.getFirstName() + " " + theStudent.getLastName());
 		
-		
-		return "student-confirmation";
+		return "student-confirmation";			
 	}
 }

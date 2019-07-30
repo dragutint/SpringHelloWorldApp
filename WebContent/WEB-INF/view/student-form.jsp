@@ -18,7 +18,6 @@
 		
 		<label>Last name:</label>			
 		<form:input path="lastName"/>
-		
 		<br>
 		
 		<label>Contry:</label>

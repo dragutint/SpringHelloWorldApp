@@ -8,11 +8,11 @@
 </head>
 
 <body>
-	<h2>Hello, go to form. <a href="hello/showForm">Click</a></h2>
+	<h2><a href="hello/showForm">Hello form</a></h2>
 	<br>
+	<h2><a href="student/showForm">Student form</a></h2>
 	<br>
-	<h2>Hello, go to registration form student. <a href="student/showForm">Click</a></h2>
-	
+	<h2><a href="customer/showForm">Customer form</a></h2>	
 </body>
 
 </html>
